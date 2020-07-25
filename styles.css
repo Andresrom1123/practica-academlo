@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section */
+.hero {
+    min-height: 350px;
+    background: linear-gradient(to right, #ff4b1f, #ff9068);
+    display: flex;
+    vertical-align: center;
+    flex-direction: column;
+}
+
+.hero-space {
+    padding-top: 90px;
+}
+
+.slogan {
+    padding-left: 4rem;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.boton a {
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 0.4rem 2rem;
+    border-radius: 7px;
+}
+
+/* Product page */
+main {
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+#header-title{
+    padding: 3rem 0  1rem 2rem;
+}
+
+
+
+
+
+
+.main-left {
+    max-width: 45%;
+    padding: 3rem 2.5% 0 10%;
+}
+
+.main-left h5 {
+    color: gray;
+}
+
+.main-rigth {
+    min-width: 45%;
+    padding: 3rem 2.5% 0 2.5%;
+}
+
+#icon {
+    font-size: 34px;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70%;
+}
+
+.bot a {
+    padding: 0 3rem;
+    border: gray solid;
+    line-height: 50px;
+    text-align: center;
+    color: gray;
+}
+
+.bot p {
+    color: gray;
+}
+
+.marco {
+ border:none;
+    -webkit-box-shadow: -1px 2px 3px 0px rgba(181, 175, 181, 1);
+    -moz-box-shadow: -1px 2px 3px 0px rgba(181, 175, 181, 1);
+    box-shadow: -1px 2px 3px 0px rgba(181, 175, 181, 1);
+}
+
+/* inicia Categories */
+.margin-top {
+    margin-top: 5rem;
+}
+.img100 {
+    width: 100%
+}
+
+.box {
+    width: 240px;
+    height: 220px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.small-text-red {
+    color: red;
+}
+
+.bor-rad {
+    border-radius: 3%;
+}
+.bor-none {
+    border: none;
+    border-bottom: solid 1px grey;
+}
+
+.box-si {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.caption {
+    cursor: pointer;
+    padding-left: 1rem;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    color: white;
+    z-index: 100;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.caption i {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.radial:hover {
+    cursor: pointer;
+    background: linear-gradient(
+        rgba(255, 0, 0, 0.966), 
+        rgba(255, 187, 0, 0.932)
+    )
+}
+.radial {
+    cursor: pointer;
+    background: linear-gradient(
+        rgba(255, 0, 0, 0.3), 
+        rgba(255, 0, 0, 0.3)
+    )
+}
+
+#elemento {
+    top: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 1rem;
+    border-radius: 3%;
+}
+
+
+
+
+/* Featured  */
+.scroll::-webkit-scrollbar{
+    width: 9px;
+}
+.scroll::-webkit-scrollbar-track {
+    background-color:#fff;
+    border-radius: 5px; 
+} 
+.scroll::-webkit-scrollbar-thumb {
+    background-color:  rgba(204, 204, 204, 0.7);
+    border-radius: 5px;
+} 
+
